@@ -100,6 +100,7 @@ main{
     display: flex;
     flex-basis: auto;
     width: 100%;
+    margin-top: 2rem;
 }
 
 .project{
@@ -129,6 +130,9 @@ main{
 footer{
     height: 10rem;
     background-color: #abb2bf;
+    border: .1px black solid;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .bottom-nav{
@@ -138,7 +142,7 @@ footer{
     flex-direction: column;
 }
 
-.bottom-nav a{
+.bottom-nav .contact-bottom{
     padding: 1.5% 1% 1.5% 1%;
     width: 10em;
     height:.5em;
@@ -148,12 +152,27 @@ footer{
     margin-top: 2rem;
 }
 
-.bottom-nav a:hover{
+.bottom-nav .contact-bottom:hover{
     background-color: #e68c93;
 }
 
 .social{
-    margin-top: 1em;
+    margin-top: 2em;
+    filter: brightness(0%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
 }
+
+
+.social img{
+    max-width: 100%;
+    height: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
 
 
