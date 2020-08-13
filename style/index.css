@@ -1,11 +1,12 @@
 /* Add CSS styling here */
 
 *{
-    font-family: 'Sora', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 body{
-    background-color: #ccdbd0;
+    background-color: #282c34;
+    color:#61afef;
 }
 
 a{
@@ -17,12 +18,21 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 h1{
     margin-block-end: unset;
     font-size: 400%;
     flex-wrap: nowrap;
+}
+
+h2 {
+    color: #e5c07b;
+}
+
+h3{
+    color: #c678dd;
 }
 
 .top-nav{
@@ -36,7 +46,7 @@ h1{
     padding: 1.75% 5% 5% 5%;
     width: 10em;
     height:.5em;
-    background-color: #7b9481;
+    background-color: #abb2bf;
     text-align: center;
     border-right: 1px black solid;
 }
@@ -46,11 +56,11 @@ h1{
 }
 
 .top-nav .home{
-    background-color: #5ebf75;
+    background-color: #e06c75;
 }
 
 .top-nav .home:hover{
-    background-color: #479259;
+    background-color: #e68c93;
 }
 
 .top-nav .last{
@@ -65,6 +75,7 @@ p {
     line-height: 2rem;
     font-size: 90%;
     text-align: justify;
+    color: #98c379;
 }
 
 main{
@@ -113,6 +124,36 @@ main{
 
 .project-text p{
     padding-top: 50%;
+}
+
+footer{
+    height: 10rem;
+    background-color: #abb2bf;
+}
+
+.bottom-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bottom-nav a{
+    padding: 1.5% 1% 1.5% 1%;
+    width: 10em;
+    height:.5em;
+    background-color: #e06c75;
+    text-align: center;
+    border: 1px black solid;
+    margin-top: 2rem;
+}
+
+.bottom-nav a:hover{
+    background-color: #e68c93;
+}
+
+.social{
+    margin-top: 1em;
 }
 
 
