@@ -1,5 +1,78 @@
 /* Add CSS styling here */
 
 *{
-    
+    font-family: 'Sora', sans-serif;
+}
+
+body{
+    background-color: #ccdbd0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin-block-end: unset;
+    font-size: 400%;
+    flex-wrap: nowrap;
+}
+
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: black solid .1px;
+}
+
+.top-nav a{
+    padding: 1.75% 5% 5% 5%;
+    width: 10em;
+    height:.5em;
+    background-color: #7b9481;
+    text-align: center;
+    border-right: 1px black solid;
+}
+
+.top-nav a:hover{
+    background-color:#9ec0a6;
+}
+
+.top-nav .home{
+    background-color: #5ebf75;
+}
+
+.top-nav .home:hover{
+    background-color: #479259;
+}
+
+.top-nav .last{
+    border:unset;
+}
+
+.intro {
+    width: 90%;
+}
+
+.intro p {
+    line-height: 2rem;
+    font-size: 90%;
+    text-align: justify;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.primary-image{
+    display: flex;
+    width: 100%;
 }
