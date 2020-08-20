@@ -205,6 +205,10 @@ footer{
     .project-text p{
         padding-top: 0%;
     }
+
+    .bottom-nav .contact-bottom{
+        padding: 2% 2% 3% 2%;
+    }
 }
 
 @media (max-width:660px){
