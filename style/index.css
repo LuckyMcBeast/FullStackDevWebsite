@@ -207,8 +207,33 @@ footer{
     }
 }
 
-@media (max-width:500px){
+@media (max-width:660px){
+    body {
+        margin: 10% 0 0;
+    }
+    h1{
+        text-align: center;
+    }
+    .top-nav{
+        flex-direction: column;
+    }
 
+    .top-nav a{
+        padding: 7.5% 50% 10% 50%;
+        border-left: 1px black solid;
+    }
+
+    footer{
+        margin-top: 0;
+    }
+
+    .bottom-nav .contact-bottom{
+        padding: 3% 9% 5% 9%;
+    }
+
+    .social{
+        width: 50%;
+    }
 }
 
 
