@@ -4,10 +4,13 @@
     font-family: 'Share Tech Mono', monospace;
 }
 
+
 body{
     background-color: #282c34;
     color:#61afef;
-    margin: unset;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 a{
@@ -124,6 +127,7 @@ main{
     width:20%;
     height: 40rem;
     line-height: 20rem;
+    margin: 1% 1% 1% 1%;
 }
 
 .project-text p{
@@ -176,6 +180,35 @@ footer{
     margin-right: 1rem;
 }
 
+@media (max-width:800px){
+    .projects{
+        display: flex;
+        width: 100%;
+        flex-flow: wrap;
+        margin-top: 2rem;
+    }
 
+    .project{
+        width: 48%;
+        height: 40rem;
+        margin: 1% 1% 1% 1%;
+    }
+
+    .project-text{
+        width: 90%;
+    height: fit-content;
+    line-height: 20rem;
+    margin: 1% 5% 1% 5%;
+    text-align: center;
+    }
+    
+    .project-text p{
+        padding-top: 0%;
+    }
+}
+
+@media (max-width:500px){
+
+}
 
 
